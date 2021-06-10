@@ -1,0 +1,37 @@
+/* define o tamanho da caixa*/
+*{
+    box-sizing:content-box;
+}
+/*margin: 0 recebe o valor dos 4 lados se nao for expecificado*/
+/*Css é case sensitive, se voce der espaço vai dar erro*/
+
+/* se a div estiver dentro da outra aplica*/
+.pai > .filho{
+    background-color: blue;
+} 
+/*usar !important quando nao souber onde alterar*/
+/*padding muda os espaçamentos internos*/
+/*transiton tempo que leva*/
+.transicao{
+    transition: 3s;
+}
+/*box-shadow faz sombramento em volta*/
+.sombra{
+    box-shadow: 0 0 0 15px rgb(255,255,255,0);
+}
+
+/*criando uma animaçao*/
+.anima{
+    animation: 3s;
+}
+
+@keyframes animacao {
+    0%{
+        box-shadow: 0 0 0 0 #ef8f6e;
+    }
+}
+
+/*Quando o elemento e focado*/
+.focando:focus{
+    color:aliceblue;
+}
