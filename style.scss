@@ -1,0 +1,18 @@
+/*$ sass --watch saas/style.scss:css/style.css
+alinhamento do sass*/
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+        li{
+            display: flex;
+            margin-bottom: 42px;
+            img {
+                display: flex;
+            }
+        }
+        
+    }
